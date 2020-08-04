@@ -1,0 +1,760 @@
+@media only screen and (max-width: 2200px){
+    #display-banner .search-box { top: 369px; right: 368px; }
+    #display-banner .chevron { top: 394px; right: 323px; }
+    #display-banner .chevron-2 { top: 458px; right: 323px; }
+    #display-banner .chevron-3 { top: 522px; right: 323px; }
+}
+
+@media only screen and (max-width: 2050px){
+    #display-banner .search-box { top: 349px; right: 318px; }
+    #display-banner .chevron { top: 374px; right: 273px; }
+    #display-banner .chevron-2 { top: 438px; right: 273px; }
+    #display-banner .chevron-3 { top: 502px; right: 273px; }
+}
+
+@media only screen and (max-width: 1900px){
+    #display-banner .search-box { top: 327px; right: 248px; }
+    #display-banner .chevron { top: 352px; right: 203px; }
+    #display-banner .chevron-2 { top: 405px; right: 203px; }
+    #display-banner .chevron-3 { top: 480px; right: 203px; }
+    .triangle {
+        top: 2644px;
+    }
+    .triangle2 {
+        top:2762px;
+    }
+    .triangle3 {
+        top: 2795px;
+    }     
+}
+
+@media only screen and (max-width: 1750px){
+    #display-banner .search-box { top: 315px; right: 168px; }
+    #display-banner .chevron { top: 340px; right: 123px; }
+    #display-banner .chevron-2 { top: 404px; right: 123px; }
+    #display-banner .chevron-3 { top: 468px; right: 123px; }
+}
+
+@media only screen and (max-width: 1670px){
+    #display-banner .search-box { top: 305px; right: 118px; }
+    #display-banner .chevron { top: 335px; right: 73px; }
+    #display-banner .chevron-2 { top: 394px; right: 73px; }
+    #display-banner .chevron-3 { top: 458px; right: 73px; }
+}
+
+@media only screen and (max-width: 1560px){
+    #main-nav, #trusted-by {
+        max-width:1300px;
+    }
+    .top-nav ul li {
+        font-size: 0.8rem;
+    }
+    .top-nav ul li i {
+        color: #50E3c2;
+        font-size: 1.05rem;
+    }
+    .top-nav ul li {
+        padding: 1rem 0.5rem;
+    }
+    #trusted-suppliers h1 {
+        padding-left:32px;
+    }
+    #display-banner .container-fluid {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 7.9rem;
+        padding-right: 7.9rem;
+    }
+    #long-headline {
+        background-image: url('');
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 1.5rem;
+    }
+    #display-banner .search-box { top: 285px; right: 118px; }
+    #display-banner .chevron { top: 315px; right: 73px; }
+    #display-banner .chevron-2 { top: 374px; right: 73px; }
+    #display-banner .chevron-3 { top: 438px; right: 73px; }
+
+}
+@media only screen and (max-width: 1360px){
+    #main-nav, #trusted-by {
+        max-width:1200px;
+    }
+    .top-nav ul li {
+        font-size: 0.8rem;
+    }
+    .top-nav ul li i {
+        color: #50E3c2;
+        font-size: 1.05rem;
+    }
+    .top-nav ul li {
+        padding: 1rem 0.5rem;
+    }
+    #main-nav .header-telephone .order-online {
+        font-size: 0.8rem;
+    }
+    #main-nav .header-telephone .or-call {
+        font-size: 1.55rem;
+    }
+    .online-payments-outer {
+        height:280px;
+    }
+    .online-payments-outer p {
+        font-size: 0.85rem;
+    }
+    .owl-prev {
+        left: 0rem;
+    }
+    .owl-next {
+        right: 0rem;
+    }
+    #customers-say {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 5.9rem;
+        padding-right: 5.9rem;
+    }
+    #display-banner .search-box { top: 265px; right: 118px; }
+    #display-banner .chevron { top: 295px; right: 73px; }
+    #display-banner .chevron-2 { top: 354px; right: 73px; }
+    #display-banner .chevron-3 { top: 418px; right: 73px; }
+    #display-banner .search-box {
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 1220px){
+    #main-nav, #trusted-by {
+        max-width:100%;
+    }
+    .top-nav ul li {
+        font-size: 0.8rem;
+    }
+    .top-nav ul li i {
+        color: #50E3c2;
+        font-size: 1.05rem;
+    }
+    .top-nav ul li {
+        padding: 1rem 0.1rem;
+    }
+    #main-nav .header-telephone .order-online {
+        font-size: 0.8rem;
+    }
+    #main-nav .header-telephone .or-call {
+        font-size: 1.55rem;
+    }
+    #main-nav .main-menu li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 1.4rem;
+        font-size: 0.9rem;
+    }
+    .online-payments-outer {
+        height:250px;
+    }
+    .online-payments-outer p {
+        font-size: 0.8rem;
+    }
+    .online-payments-outer p {
+        padding: 1.25rem 0;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 3.3rem 4.3rem;
+    }
+    #display-banner .search-box {
+        width: 430px;
+    }
+    // .chevron {
+    //     margin-top: -118px;
+    //     width: 60px;
+    // }
+}
+@media only screen and (max-width: 1120px){
+    #main-nav, #trusted-by {
+        max-width:1080px;
+    }
+    .top-nav ul li {
+        font-size: 0.71rem;
+    }
+    .top-nav ul li i {
+        color: #50E3c2;
+        font-size: 0.95rem;
+    }
+    .top-nav ul li {
+        padding: 1rem 0.1rem;
+    }
+    .top-nav .top-nav-right {
+        float:left;
+    }
+    #main-nav .header-telephone .order-online {
+        font-size: 0.75rem;
+    }
+    #main-nav .header-telephone .or-call {
+        font-size: 1.5rem;
+    }
+    #main-nav .main-menu li {
+        margin-right: 0.7rem;
+    }
+    .online-payments-outer {
+        height:200px;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 2.0rem 4.3rem;
+    }
+    #display-banner .search-box {
+        width: 400px;
+        height: 500px;
+        padding: 5.5rem 4.5rem 5rem 3rem;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 3.5rem 14.5rem;
+    }
+    #categories p {
+        padding: 0 1.5rem 0 1.5rem;
+        font-size: 0.94rem;
+    }
+
+}
+
+@media only screen and (max-width: 1050px){
+    .top-nav ul li {
+        display: block;
+    }
+    .top-nav ul {
+        display: block;
+    }
+    .top-nav .top-nav-left {
+        display:none;
+        float: left;
+        background: $blueblack;
+        margin-left: -25px;
+        padding-right: 25px;
+        padding-left: 21px;
+        position: absolute;
+        top: 50px;
+        right:0;
+    }
+    .hamburger {
+        display:inline-block !important;
+        float:right;
+    }
+    #main-nav .header-telephone .order-online {
+        display:none;
+    }
+    #main-nav .header-telephone .or-call {
+        display:none;
+    }
+    .top-menu-active {
+        display:block !important;
+        z-index: 200;
+    }
+    #main-nav .custom-logo {
+        width: 100%;
+    }
+    .top-nav .or-call-mobile {
+        display: inline-block;
+    }
+    .top-nav .order-online-mobile {
+        display: inline-block;
+    }
+    .online-payments-outer {
+        height:220px;
+    }
+    .online-payments-outer .test-div {
+        margin: -260px 2rem 2rem 2rem;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 1.8rem 3.3rem;
+    }
+    .online-payments-outer p {
+        padding: 0.8rem 0;
+    }
+    #display-banner .search-box {
+        width: 320px;
+        padding: 4.5rem 5rem 4.5rem 3rem;
+        height: 450px;
+    }
+    #display-banner h1 {
+        font-size: 38px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display:none;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 3.5rem 10.5rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #trusted-by .owl-prev, #trusted-by .owl-next {
+        display: none;
+    }
+    .online-payments-outer p {
+        font-size: 0.7rem;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon {
+        width: 33px;
+        margin-top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #display-banner .search-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 2rem 3rem 3.2rem 3rem;
+        top: 0;
+        right: 0 ;
+        float: none;
+    }
+    #display-banner .carousel-item {
+        height: 276px;
+    }
+    #customers-say {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #display-banner .chevron { top: 555px; right: 73px; }
+    #display-banner .chevron-2 { top: 555px; right: 135px; }
+    #display-banner .chevron-3 { top: 555px; right: 197px; }
+    #display-banner {
+        background: #321F41;
+        padding: 2.0rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .online-payments-outer {
+        height: 160px;
+    }
+    .online-payments-outer p {
+        font-size: 0.65rem;
+        padding: 0.5rem 0;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon {
+        width: 30px;
+        margin-top: 0.3rem;
+        margin-left: 0.3rem;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon-large {
+        width: 93%;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .online-payments-outer .test-div .panel-right .col-sm-12 {
+        height: 100px;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 1.5rem 2.3rem;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 3.5rem 7rem;
+    }
+    #categories p {
+        padding: 0 1.3rem 0 1.3rem;
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 820px){
+    .online-payments-outer {
+        height: 130px;
+    }
+    #signup input {
+        width: 350px;
+    }
+    .online-payments-outer p {
+        font-size: 0.60rem;
+        padding: 0.5rem 0;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon {
+        width: 25px;
+        margin-top: 0.1rem;
+        margin-left: 0.3rem;
+    }
+    #long-headline h1 {
+        font-size: 2rem;
+    }
+    #display-banner .carousel-item {
+        height: 296px;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 3.9rem;
+        padding-right: 3.9rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .footer-main a {
+        font-size: 0.79rem;
+    }
+    .footer-main h6 {
+        font-size: 0.85rem;
+    }
+    .footer-main .or-call {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    // .fixed-top {
+    //     position:relative !important;
+    // }
+    // .main-nav-container-fixed {
+    //     position:relative !important;
+    // }
+    #main-nav .main-menu .main-menu-search {
+        display: none;
+    }
+    .footer-nav {
+        height:auto;
+    }
+    .footer-nav span {
+        padding-top: 0rem;
+    }
+    #trusted-by p {
+        padding: 3.4rem 5.5rem;
+    }
+    .online-payments-outer {
+        height: auto;
+    }
+    #signup input {
+        width: 310px;
+    }
+    #signup .btn-primary {
+        padding: 1.3rem 2rem;
+    }
+    #signup h1 {
+        margin: 6.6rem 0 0 0;
+    }
+    .online-payments-outer p {
+        font-size: 0.90rem;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon {
+        width: 35px;
+        margin-top: 0.1rem;
+        margin-left: 0.3rem;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon-large {
+        width: 75%;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 2rem;
+        background: #fff;
+    }
+    .online-payments-outer .main-online-payments-img {
+        display:none;
+    }
+    .online-payments-outer .test-div .panel-right .col-sm-12 {
+        height: 180px;
+    }
+    .online-payments-outer .test-div {
+        margin: -360px 2rem 2rem 2rem;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 3.5rem 3rem;
+    }
+    #display-banner .card-body {
+        padding: 0.7rem 1.25rem 1.25rem 0rem;
+    }
+    #display-banner .carousel-item {
+        height: 310px;
+    }
+    #categories p {
+        padding: 0 1.1rem 0 1.1rem;
+        font-size: 0.8rem;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    #customers-say p {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (max-width: 590px){
+    .top-nav .or-call-mobile {
+        font-size: 1.1rem;
+        padding-top:0.73rem;
+    }
+    .top-nav .order-online-mobile {
+        font-size: 0.65rem;
+    }
+    .online-payments-outer .test-div .panel-right .col-sm-12 {
+        height: 140px;
+    }
+    #display-banner .card-body {
+        padding: 0rem 1.25rem 1.25rem 0rem;
+    }
+    #display-banner .carousel-item {
+        height: 310px;
+    }
+}
+@media only screen and (max-width: 575px){
+    #main-nav .custom-logo {
+        width: 70%;
+        padding: 1.6rem 1.2rem 0 1.2rem;
+    }
+    #main-nav .header-telephone {
+        padding: 1.5rem 0 0 2rem;
+        border-bottom: 1px solid #DBD8DD;
+        height: 77px;
+    }
+    .footer-main {
+        padding: 3rem 1rem 3rem 1rem;
+    }
+    .footer-main img {
+        padding: 1.5rem 0 1.8rem 0;
+    }
+    .footer-main .order-online {
+        margin-bottom: 0.3rem;
+    }
+    .footer-main h6 {
+        margin-top: 1.5rem;
+    }
+    .footer-nav {
+        padding: 0.85rem 1rem 0.85rem 1rem;
+    }
+    #signup .signup-cta {
+        flex-direction: column;
+    }
+    #signup input {
+        width: 90%;
+        margin-left:5%;
+        margin-right:5%;
+        text-align:center;
+        margin-bottom:1rem;
+    }
+    #signup .btn-primary {
+        width: 90%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    #signup h1 {
+        margin: 3.4rem 0 0 0;
+    }
+    #trusted-by p {
+        padding: 0rem 2.5rem 3.4rem 2.5rem;
+        font-size: 0.9rem;
+    }
+    #long-headline {
+        margin-top: -60px;
+    }
+    #long-headline p {
+        font-size:0.9rem;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 3.0rem 2rem 2.1rem 2rem;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .col-custom-left {
+        width:15%;
+        float:left
+    }
+    .col-custom-right {
+        width:85%;
+        float:right;
+    }
+    #trusted-suppliers h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0 !important;
+        margin-top: 3.3rem;
+    }
+    #categories h1 {
+        margin-top: 3.5rem;
+        margin-bottom: -3px;
+    }
+    #categories .category-icon {
+        margin-top: 2.2rem;
+    }
+    #signup {
+        margin-top: -41px;
+    }
+    #customers-say .header-underline-1 {
+        margin-bottom: 1.3rem;
+    }
+    .online-payments-outer .test-div {
+        margin: -300px 2rem 2rem 2rem;
+    }
+    .online-payments-outer {
+        padding: 3rem 0.4rem 4rem 0.4rem;
+    }
+    #trusted-by {
+        margin-top: -42px;
+    }
+    .chevron {
+        margin-top: -69px;
+        width: 35px;
+    }
+    #display-banner .chevron { top: 662px; right: 73px; width: 70px; height: 70px; }
+    #display-banner .chevron-2 { top: 662px; right: 119px; width: 70px; height: 70px; }
+    #display-banner .chevron-3 { top: 662px; right: 170px; width: 70px; height: 70px; }
+}
+
+@media only screen and (max-width: 480px){
+    .top-nav .order-online-mobile {
+        display:none;
+    }
+    .top-nav .or-call-mobile {
+        padding-left: 0.73rem;
+        padding-left: 1.0rem;
+    }
+    #main-nav .custom-logo {
+        width: 80%;
+        padding: 1.6rem 1.2rem 0 1.2rem;
+    }
+    .online-payments-outer .test-div .panel-right .col-sm-12 {
+        height: 100px;
+    }
+    .online-payments-outer {
+        padding: 7.7rem 0.4rem 4rem 0.4rem;
+    }
+    #long-headline h1 {
+        font-size: 1.8rem;
+    }
+    #display-banner {
+        padding: 0.5rem 0 0 0;
+    }
+    #display-banner .search-box .search-box-form {
+        padding: 1.0rem;
+    }
+    #display-banner .search-box .btn-submit {
+        padding: 0.9rem 0rem;
+    }
+    #display-banner .search-box .advanced-search {
+        margin-bottom: 1rem;
+    }
+    #customers-say h1 {
+        margin-top: 2.5rem;
+    }
+    #display-banner h1 {
+        font-size: 30px;
+    }
+    #display-banner p {
+        font-size:0.9rem;
+    }
+    #display-banner .carousel-item {
+        height: 270px;
+    }
+    .online-payments-outer p {
+        font-size: 0.8rem;
+    }
+    .online-payments-outer .test-div .panel-right .secure-icon {
+        width: 28px;
+        margin-top: 0.2rem;
+    }
+    #display-banner .chevron-3 {
+        top: 582px;
+        right: 100px;
+        width: 50px;
+        height: 50px;
+    }
+    #display-banner .chevron-2 {
+        top: 582px;
+        right: 59px;
+        width: 50px;
+        height: 50px;
+    }
+    #display-banner .chevron {
+        top: 582px;
+        right: 23px;
+        width: 50px;
+        height: 50px;
+    }
+    .online-payments-outer .test-div {
+        margin: -370px 2rem 2rem 2rem;
+    }
+    #trusted-by p {
+        padding: 0rem 0.5rem 3.4rem 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 360px){
+    .top-nav .or-call-mobile {
+        font-size: 0.7rem;
+        padding-top: 1.1rem;
+    }
+    #main-nav .custom-logo {
+        width: 90%;
+        padding: 1.6rem 1.2rem 0 1.2rem;
+    }
+    #long-headline .headline-wrapper-inner {
+        padding: 2.3rem 1rem;
+    }
+    #long-headline .headline-wrapper-inner p {
+        font-size:0.9rem;
+    }
+    #display-banner .search-box h2 {
+        font-size: 27px;
+    }
+    #display-banner h1 {
+        font-size: 1.3rem;
+    }
+    #display-banner .carousel-item {
+        height: auto;
+    }
+    #trusted-suppliers h1 {
+        font-size: 1.3rem;
+        margin-top: 2.1rem;
+    }
+    #long-headline {
+        margin-top:-70px;
+    }
+    #long-headline h1 {
+        font-size: 1.3rem;
+    }
+    #categories h1 {
+        margin-top: 3.1rem;
+    }
+    #categories .category-icon {
+        margin-top: 0.8rem;
+    }
+    #categories .diamond-section {
+        padding-top: 1.5rem;
+    }
+    #customers-say {
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+    #customers-say h1 {
+        margin-top: 1.7rem;
+        font-size: 1.5rem;
+    }
+    #customers-say .owl-carousel .owl-item {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .top-nav .price {
+        padding: 1rem 0.5rem;
+    }
+    #display-banner-image .display-banner-image {
+        margin-top: 0.0rem;
+    }
+    #main-nav .custom-logo {
+        margin-bottom: -10px;
+    }
+    .online-payments-outer .test-div .panel-right {
+        padding: 1.2rem;
+        background: #fff;
+    }
+    .online-payments-outer p {
+        font-size: 0.65rem;
+    }
+}
