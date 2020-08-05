@@ -27,6 +27,10 @@ p {
   font-size: 0.83rem;
   padding: 0.55rem 2.5rem;
   border-radius: 0.2rem;
+  color: #fff !important;
+}
+.btn-primary:hover {
+  background: #c88000;
 }
 
 button:focus {
@@ -96,6 +100,10 @@ button:focus {
 #header .navbar .navbar-brand-home-link img {
   margin-top: -5px;
   margin-left: 1rem;
+}
+#header .navbar .container-fluid {
+  max-width: 1380px;
+  padding: 2.2rem 0 0.8rem 0;
 }
 #header .header-social-icons {
   position: absolute;
@@ -246,11 +254,13 @@ button:focus {
 }
 
 #featurette-1 .featurette-1 {
-  background-image: url("/images/featurette-1.jpg");
-  background-size: cover;
   width: 100%;
   height: 610px;
   display: block;
+  position: relative;
+}
+#featurette-1 .featurette-1 img {
+  position: relative;
 }
 #featurette-1 h2 {
   font-weight: 600;
@@ -271,6 +281,9 @@ button:focus {
   float: right;
   margin-left: auto;
   padding: 3rem 5rem 3.6rem 5.5rem;
+  position: absolute;
+  z-index: 99;
+  right: 0;
 }
 #featurette-1 .featurette-text-panel p {
   color: #4A4A4A;
@@ -332,8 +345,244 @@ button:focus {
   width: 100%;
 }
 
+#case-studies {
+  background: #000;
+  padding: 5rem 22rem 6rem 22rem;
+}
+#case-studies h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+#case-studies p {
+  color: #fff;
+  margin-bottom: 2.4rem;
+}
+#case-studies img {
+  width: 140px;
+  margin: 1rem 0;
+}
+
+#ideas-inspiration {
+  margin: 4rem 0;
+}
+#ideas-inspiration h2 {
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+#ideas-inspiration p {
+  color: #000;
+  margin-bottom: 2.4rem;
+}
+#ideas-inspiration .ideas-container {
+  margin-bottom: 2.2rem;
+}
+#ideas-inspiration img {
+  width: 100%;
+}
+#ideas-inspiration .ideas-container p {
+  background: #fff;
+  margin-top: -36px;
+  text-align: left;
+  padding: 0.4rem 0.9rem;
+  z-index: 9;
+  position: relative;
+  width: 160px;
+  margin-left: 1rem;
+}
+
+#reviews {
+  padding: 5rem 0;
+  background: #F0F0F0;
+}
+#reviews .g-logo {
+  background: #000;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  border-radius: 8.5rem;
+  float: left;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#reviews i {
+  float: left;
+  color: #EC9700;
+  font-size: 0.75rem;
+  padding: 1.1rem 0.2rem;
+}
+#reviews h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  padding-right: 2rem;
+}
+#reviews .google-rating {
+  width: 100%;
+  float: left;
+  margin-bottom: 2rem;
+}
+#reviews .google-reviews {
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+#reviews .testimonials-heading {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.09rem;
+  margin-bottom: 3.5rem;
+}
+#reviews h5 {
+  font-size: 1rem;
+}
+
+#parralax {
+  background-image: url("/images/parrallax-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 9rem 20rem;
+}
+#parralax h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+#parralax p {
+  color: #fff;
+}
+
+#latest-blogs {
+  padding: 6rem 0;
+}
+#latest-blogs h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+#latest-blogs h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 1.8rem 0rem 0.6rem 0;
+}
+#latest-blogs .read-more {
+  color: #EC9700;
+}
+#latest-blogs .btn-primary {
+  margin: 2.5rem 0 1rem 0;
+}
+
+#instagram {
+  background: #F0F0F0;
+  padding: 4.8rem 0;
+}
+#instagram h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+#instagram .btn-primary {
+  margin: 2.5rem 0 1rem 0;
+}
+
 #footer {
+  padding: 3rem 0 0 0;
   margin: 1.5rem 0;
+}
+#footer p {
+  font-size: 0.75rem;
+  color: #9B9B9B;
+}
+#footer h5 {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+#footer a {
+  display: block;
+  font-size: 0.8rem;
+  color: #9B9B9B;
+}
+#footer .orange-footer-heading {
+  color: #EC9700;
+  margin-top: 0rem;
+}
+#footer .green-footer-heading {
+  color: #70A11C;
+  margin-top: 0rem;
+}
+#footer .orangered-footer-heading {
+  color: #E8521B;
+  margin-top: 0rem;
+}
+#footer .footer-form .form-firstname {
+  width: 49%;
+  float: left;
+  margin-bottom: 1rem;
+}
+#footer .footer-form .form-lastname {
+  width: 49%;
+  float: right;
+  margin-bottom: 1rem;
+}
+#footer .footer-form .form-email {
+  margin-bottom: 1rem;
+}
+#footer .footer-form .subscribe-label {
+  font-size: 0.6rem;
+  line-height: 0.75rem;
+  width: 50%;
+}
+#footer .footer-form .subscribe-input {
+  margin-right: 5px;
+  margin-top: -5px;
+}
+#footer .footer-form .btn-primary {
+  float: right;
+}
+#footer .established {
+  padding: 0 5rem 2rem 0;
+}
+#footer .address {
+  color: #9B9B9B;
+  padding: 0;
+  font-size: 0.85rem;
+}
+#footer .address p {
+  margin-bottom: 0;
+}
+#footer .social-icons-footer {
+  color: #000;
+  text-align: right;
+  padding: 0;
+}
+#footer .social-icons-footer i {
+  margin-left: 1rem;
+}
+#footer img {
+  margin-bottom: 0.4rem;
+}
+
+#footer-nav {
+  padding: 0 0 4rem 0;
+}
+#footer-nav p {
+  font-size: 0.85rem;
+  color: #9B9B9B;
+}
+#footer-nav .signoff-left {
+  float: Left;
+}
+#footer-nav .signoff-left p {
+  display: inline;
+  margin-right: 2rem;
+}
+#footer-nav .signoff-right {
+  float: right;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -363,6 +612,11 @@ button:focus {
 
   .carousel-indicators li {
     padding: 0.1rem 4rem;
+  }
+
+  #case-studies {
+    background: #000;
+    padding: 5rem 12rem 6rem 12em;
   }
 }
 @media only screen and (max-width: 1150px) {
@@ -440,6 +694,29 @@ button:focus {
     color: transparent;
     border-color: #4A4A4A;
   }
+
+  #featurette-2-column img {
+    margin-top: 3rem;
+  }
+
+  #case-studies {
+    padding: 5rem 8rem 6rem 8rem;
+  }
+
+  #our-clients {
+    padding: 4rem 0 2rem 0;
+  }
+
+  #ideas-inspiration .ideas-container p {
+    margin-top: -31px;
+    padding: 0.4rem 0.9rem;
+    width: 130px;
+    font-size: 0.8rem;
+  }
+
+  #footer .established {
+    padding: 0 1rem 2rem 0;
+  }
 }
 @media only screen and (max-width: 850px) {
   #myCarousel .carousel-caption {
@@ -489,6 +766,10 @@ button:focus {
 
   #three-columns {
     padding: 2.8rem 0;
+  }
+
+  #case-studies {
+    padding: 5rem 5rem 6rem 5rem;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -554,5 +835,21 @@ button:focus {
   }
   #three-columns .text-center {
     text-align: left !important;
+  }
+
+  #featurette-2-column {
+    padding: 3rem 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #case-studies {
+    padding: 5rem 2rem 6rem 2rem;
+  }
+
+  #ideas-inspiration .ideas-container p {
+    margin-top: -31px;
+    padding: 0.4rem 0.9rem;
+    width: 130px;
+    font-size: 0.9rem;
   }
 }
