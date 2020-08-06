@@ -5,86 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Test Site">
     <meta name="author" content="">
-    <title>Andrew Hosegood Test Site</title>
+    <title>Hedgeforce Site Site</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <style>
-            #header .navbar {
-                padding: 0.4rem 1rem 0.3rem 1rem;
-            }    
 
-                /* adds some margin below the link sets  */
-            .navbar .dropdown-menu div[class*="col"] {
-            margin-bottom:1rem;
-            }
-
-            .navbar .dropdown-menu {
-            border:none;
-            background-color:#DBD8DD!important;
-            border-radius:0;
-            }
-
-            /* breakpoint and up - mega dropdown styles */
-            @media screen and (min-width: 992px) {
-
-            /* remove the padding from the navbar so the dropdown hover state is not broken */
-            .navbar {
-            padding-top:0px;
-            padding-bottom:0px;
-            }
-
-            /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
-            .navbar .nav-item {
-            padding: 0.15rem .5rem .5rem .5rem;
-            margin:0 .25rem;
-            }
-
-            /* makes the dropdown full width  */
-            .navbar .dropdown {position:static;}
-
-            .navbar .dropdown-menu {
-            width:100%;
-            left:0;
-            right:0;
-            /*  height of nav-item  */
-            top:45px;
-            margin-top: 0.55rem;
-            display:block;
-            visibility: hidden;
-            opacity: 0;
-            transition: visibility 0s, opacity 0.3s linear;
-            }
-
-            .navbar .dropdown-menu h5 {
-                font-size:0.8rem;
-                margin:0;
-                background:#F0F0F0;
-                padding:1rem 0;
-            }
-
-            .navbar .dropdown-menu img {
-                width:100%;
-            }
-
-            /* shows the dropdown menu on hover */
-            .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
-            display:block;
-            visibility: visible;
-            opacity: 1;
-            transition: visibility 0s, opacity 0.3s linear;
-            }
-
-            .navbar .dropdown-menu {
-                border: 1px solid rgba(0,0,0,.15);
-                background-color: #fff;
-            }
-
-            }
     </style>
 
 </head><!--/head-->
@@ -130,38 +61,43 @@
 
 
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Hedgeforce Logo" width="150px"></a>
+                <a class="navbar-brand" href="#"><img class="company-logo" src="images/logo.svg" alt="Hedgeforce Logo" width="150px"></a>
                 <a class="navbar-brand-home-link" href="#"><img src="images/home-icon.svg" alt="Hedgeforce Logo" width="26px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                    <span class="hamburger hamburger--elastic">
+                        <div class="hamburger-box">
+                          <div class="hamburger-inner"></div>
+                        </div>
+                    </span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="nav navbar-nav mr-auto">
 
-                    <li class="nav-item dropdown active instant-hedges">
+                    <li class="nav-item dropdown instant-hedges">
                       <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Instant Hedges
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <div class="container-fluid text-center">
             
-                                <div class="col-md-3">
+                                <div class="col-lg-3">
                                     <img class="mage-menu-pic" src="images/mega-menu-pic-1.jpg" alt="mega menu pic">
                                         <h5><a href="#">Hedges</a></h5>
                                 </div>
                     
-                                <div class="col-md-3">
+                                <div class="col-lg-3">
                                     <img class="mage-menu-pic" src="images/mega-menu-pic-2.jpg" alt="mega menu pic">
                                     <h5><a href="#">Small Hedge Planters</a></h5>
                                 </div>
                     
-                                <div class="col-md-3">
+                                <div class="col-lg-3">
                                     <img class="mage-menu-pic" src="images/mega-menu-pic-3.jpg" alt="mega menu pic">
                                     <h5><a href="#">Topiary & Trees</a></h5>
                                 </div>
 
-                                <div class="col-md-3">
+                                <div class="col-lg-3">
                                     <img class="mage-menu-pic" src="images/mega-menu-pic-4.jpg" alt="mega menu pic">
                                     <h5><a href="#">Bespoke Planters</a></h5>
                                 </div>
@@ -179,22 +115,22 @@
                         
                         <div class="container-fluid text-center">
             
-                            <div class="col-md-3">
+                            <div class="col-lg-3">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-1.jpg" alt="mega menu pic">
                                 <h5><a href="#">Hedges</a></h5>
                             </div>
                 
-                            <div class="col-md-3">
+                            <div class="col-lg-3">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-2.jpg" alt="mega menu pic">
                                 <h5><a href="#">Small Hedge Planters</a></h5>
                             </div>
                 
-                            <div class="col-md-3">
+                            <div class="col-lg-3">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-3.jpg" alt="mega menu pic">
                                 <h5><a href="#">Topiary & Trees</a></h5>
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="col-lg-3">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-4.jpg" alt="mega menu pic">
                                 <h5><a href="#">Bespoke Planters</a></h5>
                             </div>
@@ -215,17 +151,17 @@
               
                         <div class="container-fluid text-center">
             
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-1.jpg" alt="mega menu pic">
                                     <h5><a href="#">Hedges</a></h5>
                             </div>
                 
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-2.jpg" alt="mega menu pic">
                                 <h5><a href="#">Small Hedge Planters</a></h5>
                             </div>
                 
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <img class="mage-menu-pic" src="images/mega-menu-pic-3.jpg" alt="mega menu pic">
                                 <h5><a href="#">Topiary & Trees</a></h5>
                             </div>
@@ -432,9 +368,7 @@
         </div>
     </div>
 </section>
-<!-- End Featurette 1 -->
 
-<!-- Featurette 1 Grey Panel -->
 <section id="featurette-1-grey-panel">
     <div class="container-fluid text-center">
 
@@ -443,26 +377,26 @@
 
     </div>
 </section>
-<!-- End Featurette 1 Grey Panel -->
+<!-- End Featurette 1  -->
 
 
 <!-- Counter -->
 <section id="counter">
     <div class="container text-center">
         <div class="row">
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-md-3">
                 <h4><span class="counter">15</span>years</h4>
                 <p>In business</p>
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-6 col-md-3">
                 <h4><span class="counter">1200</span>m</h4>
                 <p>Hedging for rental</p>
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-6 col-md-3">
                 <h4><span class="counter">300</span>+</h4>
                 <p>Trees for rental</p>
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-6 col-sm-6 col-md-3">
                 <h4><span class="counter">1500</span>m<sup>2</sup></h4>
                 <p>Mazes created</p>
             </div>
@@ -475,7 +409,7 @@
 <section id="featurette-2-column">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-2 order-sm-2">
                 <h2>Nulla nec nisl venenatis, sollicitudin nisl non</h2>
                 <p>Nulla nec nisl venenatis, sollicitudin nisl non, placerat erat. Mauris gravida velit vel neque sodales efficitur. 
                     Phasellus lacinia viverra leo, eget dignissim nunc convallis ut. Fusce mi risus, volutpat ut sapien vel, ornare blandit purus. 
@@ -483,7 +417,7 @@
                     Nullam ac fringilla lectus, eu fringilla magna. Nulla finibus ornare ante, nec lacinia sapien ultrices congue.</p>
                 <a class="btn btn-primary" href="#">More</a>    
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-1 order-sm-1">
                 <img src="images/featurette-2-col.jpg">
             </div>
         </div>
@@ -506,6 +440,32 @@
     </div>
 </section>
 <!-- Our Clients-->
+
+
+
+
+<!-- Featurette 3 -->
+<section id="featurette-3">
+    <div class="container">
+        <div class="row">
+                <div class="featurette-3">
+                    <span class="featurette-text-panel">
+                        <h2>Nulla nec nisl venenas, sollicit</h2>
+                    </span>
+                    <img src="images/featurette-3.jpg">
+                </div>
+                <div class="featurette-3b">
+                    <span class="featurette-text-panel">
+                        <p>Nulla nec nisl venenatis, sollicitudin nisl non, placerat erat. Mauris gravida velit vel neque sodales efficitur. Phasellus lacinia viverra leo, eget dignissim nunc convallis ut. Fusce mi risus, volutpat ut sapien vel, ornare blandit purus. Duis cursus a quam a varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus </p>
+                        <a href="#" class="btn btn-primary">More</a>
+                    </span>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- End Featurette 3  -->
+
+
 
 
 <!-- Case Studies-->
@@ -605,8 +565,8 @@
 
 
 
-<section id="parralax">
-    <div class="container-fluid text-center">
+<section id="parralax" data-parallax="scroll" data-image-src="/images/parrallax-image.jpg">
+    <div class="container-fluid text-center parralax-container">
         <h2>Parralax Break Photo</h2>
         <p>Nulla nec nisl venenatis, sollicitudin nisl non, placerat erat. Mauris gravida velit vel neque sodales efficitur. Phasellus lacinia viverra leo, eget dignis</p>
     </div>
@@ -694,20 +654,20 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-sm-12 col-md-6 established">
+            <div class="col-md-12 col-lg-6 established">
                 <img src="images/logo.svg" alt="Hedgeforce Logo" width="150px">
-                <p>Established in 1995, we have helped create many projects from design, build through to creating bespoke experiences.</p>
+                <p class="established-text">Established in 1995, we have helped create many projects from design, build through to creating bespoke experiences.</p>
                 <form class="footer-form">
-                    <h5>Free Brochure</h5>
+                    <h5 class="free-brochure">Free Brochure</h5>
                     <input class="form-control form-firstname" type="text" name="firstname" placeholder="First Name*">
                     <input class="form-control form-lastname" type="text" name="lastname" placeholder="Last Name*">
                     <input class="form-control form-email" type="text" name="email" placeholder="Email*">
                     <input type="checkbox" name="subscribe" class="subscribe-input">
                     <label class="subscribe-label">I would also like to subscribe to receive advice, tips, offers, news & promotions</label>
-                    <input class="btn btn-primary" type="submit" name="submit" value="Send">
+                    <input class="btn btn-primary" type="submit" name="submit" value="Subscribe">
                 </form>
             </div>
-            <div class="col-sm-4 col-md-2">
+            <div class="col-sm-4 col-md-4 col-lg-2 footer-column">
                 <h5 class="orange-footer-heading">Instant Hedges</h5>
                 <p>Hedges<br>
                     Pleached Trees & Espalier Trees<br>
@@ -720,7 +680,7 @@
                 
                 <h5>Our Work</h5>
             </div>
-            <div class="col-sm-4 col-md-2">
+            <div class="col-sm-4 col-md-4 col-lg-2 footer-column">
                 <h5 class="green-footer-heading">Instant Hedges</h5>
                 <p>Large Hedge Planters<br>
                     Small Hedge Planters<br>
@@ -733,7 +693,7 @@
                 
                 <h5>Blog</h5>
             </div>
-            <div class="col-sm-4 col-md-2">
+            <div class="col-sm-4 col-md-4 col-lg-2 footer-column">
                 <h5 class="orangered-footer-heading">Maze Rental</h5>
                 <p>Mini Mazes<br>
                     Massive Mazes<br>
@@ -746,11 +706,11 @@
                 <h5>Contact us</h5>
             </div>
 
-            <div class="col-md-8 address">
-                <p>(Metalforce Ltd), Bocase Farm, Brigstock, Kettering, Northants NN14 3HZ, United Kingdom
-                    Copyright Exists © Metalforce Limited | VAT Reg. No. 576 5023 32 | Registered in England No. 2616220
-                    </p>
-            </div>
+                <div class="col-md-8 address">
+                    <p>(Metalforce Ltd), Bocase Farm, Brigstock, Kettering, Northants NN14 3HZ, United Kingdom
+                        Copyright Exists © Metalforce Limited | VAT Reg. No. 576 5023 32 | Registered in England No. 2616220
+                        </p>
+                </div>
 
             <div class="col-md-4 social-icons-footer">
                 <i class="fab fa-facebook-f"></i>
@@ -772,9 +732,9 @@
             <div class="col-sm-12 border-top pt-4 pl-0 pr-0">
                     
                     <span class="signoff-left">
-                        <p>InstaHedge Terms of Trade</p>
-                        <p>Website Terms of Use</p>
-                        <p>Privacy Policy</p>
+                        <a>InstaHedge Terms of Trade</a>
+                        <a>Website Terms of Use</a>
+                        <a>Privacy Policy</a>
                     </span>
                     <p class="signoff-right">Website Design &amp; Development by Brave Agency</p>
             </div>    
@@ -792,6 +752,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/parallax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="js/jquery.countup.js"></script>
 
